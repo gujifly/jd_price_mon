@@ -22,5 +22,5 @@
 #### 定时运行
 这个不用多说，crontab 写上一行计划任务即可，如：
 ```shell
-  * * * * * ( /usr/local/bin/python /root/get_price.py >/dev/null 2>&1 )  
+* * * * * ( /usr/local/bin/python /root/get_price.py >/dev/null 2>&1 )  
 
