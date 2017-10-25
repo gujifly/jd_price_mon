@@ -6,6 +6,7 @@
 ![image](https://github.com/gujifly/jd_price_mon/blob/master/resources/%E5%95%86%E5%93%81ID%E8%8E%B7%E5%8F%96.png)
 
 <br>
+
 #### 需自定义：
 
 23 ~ 25 ， 设置自己的mail-provider IP:端口 ， 收信邮箱地址列表，要监控价格的商品列表（字典）
