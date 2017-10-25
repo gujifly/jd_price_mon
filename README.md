@@ -15,5 +15,11 @@
 这里 mail provider 用的是 open-falcon 的开源组件 mail-provider , git地址： https://github.com/open-falcon/mail-provider.git
 
 如果已有自己的 mail provider , 按照实际情况修改 40 ~ 50 行代码即可。
+![image](https://github.com/gujifly/jd_price_mon/blob/master/resources/%E9%82%AE%E4%BB%B6%E5%8F%91%E9%80%81%E5%87%BD%E6%95%B0.png)
 
+<br>
+
+#### 定时运行
+这个不用多说，crontab 写上一行计划任务即可，如：
+* * * * * ( /usr/local/bin/python /root/get_price.py >/dev/null 2>&1 )  
 
