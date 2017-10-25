@@ -9,7 +9,7 @@
 #### 需自定义：
 
 23 ~ 25 ， 设置自己的mail-provider IP:端口 ， 收信邮箱地址列表，要监控价格的商品列表（字典）
-![image](https://github.com/gujifly/jd_price_mon/blob/master/resources/%E5%8F%82%E6%95%B0%E4%BF%AE%E6%94%B9.png)
+![image](https://github.com/gujifly/jd_price_mon/blob/master/resources/%E5%8F%82%E6%95%B0%E4%BF%AE%E6%94%B90.png)
 
 <br>
 这里 mail provider 用的是 open-falcon 的开源组件 mail-provider , git地址： https://github.com/open-falcon/mail-provider.git
