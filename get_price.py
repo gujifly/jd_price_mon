@@ -22,7 +22,7 @@ logger.addHandler(Rthandler)
 
 mail_server='mail-provider_ip:port'
 receivers='your_email_addr'  #多个邮箱间用逗号(,)分隔
-skuid_dic = {'4942637':u'CPU','5113345':u'电脑','4207732':u'手机'}  #要监控的商品ID,名称（自定义，唯一）
+skuid_dic = {'4942637':u'CPU','5113345':u'电脑','4207732':u'手机'}  #要监控的商品ID(唯一）,名称
 
 #存放上次旧价格字典
 old_price_dic = {}
