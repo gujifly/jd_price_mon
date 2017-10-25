@@ -3,7 +3,7 @@
 #### 作用：监测 JD（京东商城）商品价格
 
 要监控的商品ID 可在商品展示页面的 URL 里获取,如下图：
-![image]()
+![image](https://github.com/gujifly/jd_price_mon/blob/master/resources/%E5%95%86%E5%93%81ID%E8%8E%B7%E5%8F%96.png)
 
 #### 需自定义：
 23 ~ 25 ， 设置自己的mail-provider IP:端口 ， 收信邮箱地址列表，要监控价格的商品列表（字典）
