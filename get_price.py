@@ -109,21 +109,20 @@ def get_price_once(id,name,old_price):
         return is_changed,old_price_dic,mail_content
     except Exception as e:
         logger.error(e)
-        sendmail('Error',e)
 
 
 #各进程回调函数，收集结果
 def collectMyResult(result):
     global is_changed,old_price_dic,mail_content
+    if result:
+        sign = result[0]
+        dic = result[1]
+        content = result[2]
 
-    sign = result[0]
-    dic = result[1]
-    content = result[2]
-
-    if sign:
-        is_changed = sign
-        old_price_dic.update(dic)
-        mail_content += content
+        if sign:
+            is_changed = sign
+            old_price_dic.update(dic)
+            mail_content += content
 
 #包装 worker 函数，确保超时中断进程
 def abortable_worker(func, *args, **kwargs):
